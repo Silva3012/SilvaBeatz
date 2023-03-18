@@ -1,0 +1,110 @@
+
+/* Body background colour */
+body {
+    background-color: #f6f6f6;
+}
+
+/* Navigation bar */
+nav {
+    margin-bottom: 100px;
+}
+
+figure {
+    padding: 20px 20px 20px 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/* Top section of the home page */
+.container-one {
+    margin-bottom: 100px;
+    background-color: #f6f6f6;
+}
+
+/* 2nd section of the home page */
+.container-info {
+    margin-bottom: 100px;
+    background-color: #e6e1da;
+    padding: 10px 0px 10px 0px;
+}
+
+/* 3rd section of the home page */
+.container-info-two {
+    margin-bottom: 100px;
+    background-color: #ffffff;
+    padding: 10px 0px 10px 0px;
+}
+
+/* Footer section of the home page */
+.bottom-container {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 0px 10px 0px;
+    margin-top: 50px;
+}
+
+.footer-link {
+    padding: 0px 10px 0px 10px;
+}
+
+.copyright-text {
+    font-size: 15px;
+}
+
+/* The mixing console in the services page */
+.image-cover {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 40px;
+}
+
+/* Cover image in the home page */
+.cover-img {
+    width: 100%;
+    /* height: 150px; */
+}
+
+/* Images of me */
+.silva-img {
+    width: 60%;
+}
+
+/* Image with text */
+.container {
+    position: relative;
+    text-align: center;
+    padding: 10px 0px 10px 0;
+}
+
+.block1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+#services {
+    padding-bottom: 56px;
+}
+
+#tutorialsHeading {
+    padding: 56px 24px;
+    color: #000000;
+}
+
+#tutorials {
+    padding-top: 80px;
+}
