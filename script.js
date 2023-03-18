@@ -74,17 +74,6 @@ function getVideos() {
                             <a href="#" class="btn btn-info" role="button" onclick="showComments('${videoId}')">Comments</a>
                         </p>
                         <div class="likes" id="likes-${videoId}"></div>
-                            <div class="comments" id="comments-${videoId}">
-                                <h4>Comments</h4>
-                                <ul></ul>
-                                <form>
-                                    <div class="form-group">
-                                        <label for="comment-input">Add Comment:</label>
-                                        <input type="text" class="form-control" id="comment-input-${videoId}">
-                                    </div>
-                                    <button type="submit" class="btn btn-primary" onclick="addComment(event,'${videoId}')">Submit</button>
-                                </form>
-                            </div>     
                     </div>
                 </div>    
             `
