@@ -71,7 +71,6 @@ function getVideos() {
                         <p>
                             <a href="#" class="btn btn-primary" role="button" onclick="saveForLater('${title}', '${thumbnailUrl}', '${videoId}');">Save for later</a>
                             <a href="#" class="btn btn-secondary" role="button" onclick="like('${videoId}')">Like</a>
-                            <a href="#" class="btn btn-info" role="button" onclick="showComments('${videoId}')">Comments</a>
                         </p>
                         <div class="likes" id="likes-${videoId}"></div>
                             <div class="comments" id="comments-${videoId}">
